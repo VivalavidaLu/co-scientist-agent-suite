@@ -68,6 +68,7 @@ co-scientist-agent-suite/
     tool-contract.md
     context-ledger-template.md
     local-codex-skill-bindings.example.md
+    build-with-plugin-creator.md
   .cursor/rules/
     co-scientist.mdc
   .github/
@@ -106,6 +107,12 @@ Claude Code supports Markdown subagent files with YAML frontmatter.
 ### Codex
 
 Keep `AGENTS.md` and `subagents/` in the repository. When asking Codex to use the suite, reference the root `AGENTS.md` and the desired subagent file.
+
+To package this suite as a Codex plugin, see `docs/build-with-plugin-creator.md`. In Codex, you can ask:
+
+```text
+Call $plugin-creator and build https://github.com/VivalavidaLu/co-scientist-agent-suite as a Codex plugin.
+```
 
 ### Cursor
 
