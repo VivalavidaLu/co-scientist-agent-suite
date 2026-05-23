@@ -1,5 +1,7 @@
 # Co-Scientist Agent Suite
 
+[中文说明](README.zh-CN.md) | English
+
 Model-agnostic, platform-portable subagent suite inspired by the Nature paper:
 
 Gottweis et al., "Accelerating scientific discovery with Co-Scientist", Nature, 2026.
