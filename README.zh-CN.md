@@ -71,6 +71,7 @@ co-scientist-agent-suite/
     tool-contract.md
     context-ledger-template.md
     local-codex-skill-bindings.example.md
+    build-with-plugin-creator.md
   .cursor/rules/
     co-scientist.mdc
   .github/
@@ -107,6 +108,12 @@ co-scientist-agent-suite/
 ### Codex
 
 保留 `AGENTS.md` 和 `subagents/`。使用时让 Codex 参考根目录 `AGENTS.md` 和对应 subagent 文件。
+
+如果想把这套 agent suite 打包成 Codex 插件，请看 `docs/build-with-plugin-creator.md`。在 Codex 里可以这样说：
+
+```text
+调用 $plugin-creator，帮我把 https://github.com/VivalavidaLu/co-scientist-agent-suite 构建成一个 Codex 插件。
+```
 
 ### Cursor
 
@@ -179,4 +186,3 @@ GEMINI.md
 - Gemini 内部基础设施。
 - 自动文献访问或湿实验执行能力。
 - 在没有用户数据或可验证来源时验证科学结论的能力。
-
