@@ -72,6 +72,7 @@ co-scientist-agent-suite/
     context-ledger-template.md
     local-codex-skill-bindings.example.md
     build-with-plugin-creator.md
+    platform-plugin-packaging.md
   .cursor/rules/
     co-scientist.mdc
   .github/
@@ -114,6 +115,8 @@ co-scientist-agent-suite/
 ```text
 调用 $plugin-creator，帮我把 https://github.com/VivalavidaLu/co-scientist-agent-suite 构建成一个 Codex 插件。
 ```
+
+如果要查看 Claude Code、Antigravity、Cursor、TRAE 和 GitHub Copilot 的打包 / 插件化方式，请看 `docs/platform-plugin-packaging.md`。
 
 ### Cursor
 
