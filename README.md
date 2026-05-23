@@ -69,6 +69,7 @@ co-scientist-agent-suite/
     context-ledger-template.md
     local-codex-skill-bindings.example.md
     build-with-plugin-creator.md
+    platform-plugin-packaging.md
   .cursor/rules/
     co-scientist.mdc
   .github/
@@ -113,6 +114,8 @@ To package this suite as a Codex plugin, see `docs/build-with-plugin-creator.md`
 ```text
 Call $plugin-creator and build https://github.com/VivalavidaLu/co-scientist-agent-suite as a Codex plugin.
 ```
+
+For Claude Code, Antigravity, Cursor, TRAE, and GitHub Copilot packaging options, see `docs/platform-plugin-packaging.md`.
 
 ### Cursor
 
