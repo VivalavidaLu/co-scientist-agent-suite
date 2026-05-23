@@ -1,0 +1,33 @@
+---
+description: Co-Scientist-style scientific discovery workflow and subagent roles
+alwaysApply: false
+---
+
+Use this rule when the user asks for scientific hypothesis generation, research ideation, hypothesis critique, prioritization, or validation planning.
+
+Read `AGENTS.md`, then use the subagent role definitions in `subagents/`:
+
+- Supervisor
+- Generation
+- Reflection
+- Proximity
+- Ranking
+- Evolution
+- Meta-review
+- Validation
+
+If Cursor cannot run native subagents for the current task, simulate the roles sequentially using `workflows/co-scientist-discovery-loop.md`.
+
+Maintain strict scientific integrity:
+
+- Separate fact, inference, hypothesis, and speculation.
+- Do not claim novelty without evidence.
+- Ask for missing critical inputs.
+- Prefer falsifiable validation plans.
+
+For the iterative workflow, context ledger format, tool contract, and expert-in-the-loop checkpoints, see:
+
+- `workflows/co-scientist-discovery-loop.md`
+- `docs/context-ledger-template.md`
+- `docs/tool-contract.md`
+- `AGENTS.md`
