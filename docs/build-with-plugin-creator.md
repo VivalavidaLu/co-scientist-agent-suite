@@ -20,14 +20,14 @@ This repository is currently a portable agent-suite source tree. To turn it into
 - 不要把 prompt-level suite 描述成原始 Nature / Google / Gemini 官方系统
 ```
 
-如果你想显式指定本机 skill 路径，也可以写：
+If you want to explicitly point Codex to your local `plugin-creator` skill, use a generic local path placeholder instead of committing a personal username path:
 
 ```text
-调用 C:\Users\lhz\.codex\skills\.system\plugin-creator\SKILL.md，
-帮我构建这个插件：https://github.com/VivalavidaLu/co-scientist-agent-suite
+Call <path-to-plugin-creator>/SKILL.md and build this plugin:
+https://github.com/VivalavidaLu/co-scientist-agent-suite
 ```
 
-For other machines, replace the Windows path with the local path to `plugin-creator/SKILL.md`.
+For example, on Windows this path may look like `%USERPROFILE%\.codex\skills\.system\plugin-creator\SKILL.md`.
 
 ## What plugin-creator Should Produce
 
@@ -71,7 +71,7 @@ If you want to do the process manually after invoking `plugin-creator`, use this
 1. Scaffold the plugin folder:
 
 ```powershell
-python C:\Users\lhz\.codex\skills\.system\plugin-creator\scripts\create_basic_plugin.py co-scientist-agent-suite --with-marketplace
+python <path-to-plugin-creator>\scripts\create_basic_plugin.py co-scientist-agent-suite --with-marketplace
 ```
 
 2. Copy this repository's agent-suite files into the scaffolded plugin root.
@@ -81,7 +81,7 @@ python C:\Users\lhz\.codex\skills\.system\plugin-creator\scripts\create_basic_pl
 4. Validate the plugin:
 
 ```powershell
-python C:\Users\lhz\.codex\skills\.system\plugin-creator\scripts\validate_plugin.py <plugin-path>
+python <path-to-plugin-creator>\scripts\validate_plugin.py <plugin-path>
 ```
 
 5. If a marketplace entry was generated, restart or refresh Codex and install/view the plugin from the local marketplace.
