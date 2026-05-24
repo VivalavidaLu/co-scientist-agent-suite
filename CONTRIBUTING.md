@@ -18,9 +18,19 @@ Contributions are welcome, especially improvements to platform adapters, scienti
 - Improvements to the Context Ledger format.
 - Tests or checklists for prompt consistency.
 
+## Contributors and Acknowledgements
+
+This project is community-maintained.
+
+Acknowledgements:
+
+- OpenAI, for Codex and the agent/plugin ecosystem that this suite can target.
+- Google DeepMind and Google, for the published Co-Scientist work that inspired this instruction-level reconstruction.
+
+These acknowledgements do not imply official endorsement, sponsorship, or maintenance by OpenAI, Google, Google DeepMind, Gemini, Nature, or the original paper authors.
+
 ## Before Opening A Pull Request
 
 - Check that no local paths or generated evaluation reports are included.
 - Verify that new claims about platform support are backed by documentation.
 - Keep source-of-truth content in `subagents/`, `AGENTS.md`, and `workflows/`; platform adapters should remain thin.
-
