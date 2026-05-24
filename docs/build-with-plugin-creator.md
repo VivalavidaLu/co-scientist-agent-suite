@@ -2,6 +2,14 @@
 
 This repository is currently a portable agent-suite source tree. To turn it into a Codex plugin, use Codex's `plugin-creator` skill to wrap the suite with the required plugin manifest and, optionally, a local marketplace entry.
 
+This page is Codex-specific. For other platforms, use:
+
+- Claude Code: `docs/platform-plugin-packaging.md#claude-code`
+- Google Antigravity: `docs/platform-plugin-packaging.md#google-antigravity`
+- Cursor: `docs/platform-plugin-packaging.md#cursor`
+- TRAE: `docs/platform-plugin-packaging.md#trae`
+- GitHub Copilot: `docs/platform-plugin-packaging.md#github-copilot`
+
 论文来源：<https://www.nature.com/articles/s41586-026-10644-y>
 
 ## Recommended Codex Prompt
